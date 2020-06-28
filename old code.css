@@ -1,0 +1,19 @@
+
+
+H1{
+font-size: 48px!important;
+font-family:fave-script-pro, sans-serif !important;
+font-weight: 700!important;
+font-style: normal!important;
+}
+H2{
+font-size: 40px!important;
+text-transform:uppercase;
+}
+
+h4 {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 32px!important;
+}

@@ -1,0 +1,705 @@
+/* NEW REDESIGN css 2020*/
+
+H1{
+font-size: 71px!important;
+color: white;
+font-family: 'proxima-nova', sans-serif;
+font-weight: 700!important;
+
+}
+H2{
+font-size: 38px!important;
+text-transform:uppercase;
+font-family: 'proxima-nova', sans-serif;
+font-size: 24px;
+color: #222222;
+letter-spacing: 0px;
+}
+
+h3 {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+    line-height: 32px!important;
+    color: #222222;
+}
+
+
+
+
+.accent1{
+  font-family:fave-script-pro, sans-serif !important;
+  font-weight: 700!important;
+  font-style: normal!important;
+  color: #01dbff;
+  font-size: 124px!important;
+
+
+}
+
+.accent3{
+  font-family:fave-script-pro, sans-serif !important;
+  font-weight: 700!important;
+  font-style: normal!important;
+      background: linear-gradient(120.87deg,#29e1ff,#af3bd8);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ color: #01dbff;
+ font-size: 120px!important;
+ text-transform: capitalize;
+}
+
+.accent2{
+  font-family:fave-script-pro, sans-serif !important;
+  font-weight: 700!important;
+  font-style: normal!important;
+  background: linear-gradient(120.87deg,#29e1ff,#af3bd8);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ color: #01dbff;
+ font-size: 84px!important;
+ text-transform: capitalize;
+}
+
+
+
+.accent4{
+  font-family:fave-script-pro, sans-serif !important;
+  font-weight: 700!important;
+  font-style: normal!important;
+ color: white;
+ font-size: 84px!important;
+ text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pevious css 2019*/
+#sp-bottom {
+    padding: 100px 0 85px 0;
+    background-color: #800080!important;
+}
+
+#sp-footer {
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    background-color: #800080!important;
+}
+
+
+
+.donation-bttn{
+    background-color: #800080!important;
+color: white!important;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+    margin-left: 20px!important;
+}
+
+#sp-header {
+    background: white;
+     z-index: 9999;
+    top: 0px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.05);
+    position:relative;
+}
+.sp-megamenu-parent >li.active>a, .sp-megamenu-parent >li:hover>a {
+    color: #800080 ;
+}
+.sp-megamenu-parent >li.active>a, .sp-megamenu-parent >li>a {
+    color: #1b1b1b;
+}
+#sppb-addon-1580450316769 .sppb-addon-cta .text-center  {
+    padding: 40px 20px;
+    text-align: left!important;
+max-width:50%;
+}
+.sppb-addon-cta .sppb-cta-title {
+    margin-top: 0;
+        font-size: 53px;
+    line-height: 59px;
+    margin-bottom: 15px;
+    border: 0;
+}
+@media only screen and (max-width: 700px) {
+.sppb-addon-cta .sppb-cta-title {
+    margin-top: 0;
+    font-size: 45px;
+    line-height: 48px;
+    margin-bottom: 15px;
+    border: 0;
+}
+#sppb-addon-1580450316769 .sppb-addon-cta .text-center  {
+    padding: 40px 20px;
+    text-align: left!important;
+max-width:100%;
+}}
+
+@media (max-width: 768px){
+.itemid-753 .container {
+    width: 90%!important;
+}
+}
+.itemid-753 h1 {
+    margin-bottom: 40px;
+font-size: 95px;
+}
+@media (max-width: 1200px){
+.itemid-753 .container {
+    width: 90%!important;
+}
+}
+
+@media (max-width: 992px){
+.itemid-753 .col-md-8 {
+    width: 100%!important;
+}
+}
+
+@media (min-width: 992px){
+.itemid-753 .col-md-8 {
+    width: 66%;
+}
+}
+@media (max-width: 992px){
+.itemid-753 .col-md-8 {
+    width: 100%;
+}
+}
+
+@media (max-width: 1200px){
+#donation-campaigns .campaign-raised-goal {
+
+    display: flex;
+}
+
+.itemid-753 .donate-details {
+    display: flex;
+flex-direction: column;
+
+}
+
+.itemid-753 .donate-details .jd-taskbar-grid .btn, .donate-details .jd-taskbar .btn, .donate-details-mod .jd-taskbar .btn {
+
+    padding: 18px 55px;
+margin-top: 15px;
+}
+
+.itemid-753 .donate-details .jd-taskbar {
+    padding-left: 0px;
+}
+
+#donation-campaigns .campaign-expiration, #donation-campaigns .campaign-donors, #donation-campaigns .campaign-donated {
+    min-width: 92px;
+}
+.itemid-753 .row-fluid .span5 {
+    min-width: 237px;
+    margin-right: 2.1276595744681%;
+margin-left: 2.1276595744681%;
+}
+.itemid-753 .row-fluid{
+    margin-left: none;
+}
+
+.itemid-753 .row-fluid .span10 {
+    width: 100%;
+
+}
+
+.itemid-753 #donation-campaigns .campaign-raised-goal .goal {
+
+    width: 50%;
+}}
+
+@media (max-width: 1200px){
+#goal-thermometer-1 {
+    position: relative;
+    padding: 0;
+    font-family: 'proxima-nova', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    margin-right: 140px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+ .itemid-753 #sp-main-body .row {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.itemid-739 .row-fluid {
+    margin-left: none;
+
+}
+.itemid-753 .row-fluid .span6 {
+    width: 95%;
+
+}
+
+.itemid-753 .row-fluid .span7 {
+    width: 100%;
+
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 320px){
+.itemid-753 .form-horizontal .controls {
+  display:inline-block;
+}
+.itemid-753 #donation_type .controls label.radio {
+    display: block !important;
+
+}
+
+
+}
+ .form-horizontal .form-actions {
+    padding-left: none!important;
+}
+
+.itemid-753 .btn-warning {
+
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:19px;
+padding-bottom:19px;
+}
+/*thermometer CSS*/
+@media (min-width: 992px){
+.col-md-4 {
+    width: 100%;
+}
+
+}
+@media (min-width: 768px){
+
+.col-sm-4 {
+    width: 100%;
+}
+
+}
+}
+
+.btn.sppb-btn-primary, .btn.btn-primary, .sppb-btn.sppb-btn-primary, .sppb-btn.btn-primary {
+  background: #01dbff;
+  box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.06);
+  border-radius: 30px;
+  border: 0;
+  padding: 19px 35px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-family: 'proxima-nova', sans-serif!important;
+  text-transform: uppercase;
+  min-width: 250px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+.donation-bttn {
+    background-color: #21d367!important;
+    padding-left: 12px!important;
+    padding-right: 12px!important;
+    margin-left: 20px!important;
+}
+.sp-megamenu-parent >li >a, .sp-megamenu-parent >li >span {
+    display: inline-block;
+    padding: 0 8px;
+    line-height: 90px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #1b1b1b!important;
+    letter-spacing: 0.5px;
+    margin: 0;
+    font-family: 'proxima-nova', sans-serif!important;
+}
+.sp-megamenu-parent >li >a, .sp-megamenu-parent >li >span {
+    display: inline-block;
+    padding: 0 12px;
+    line-height: 90px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    margin: 0;
+    font-family: 'proxima-nova', sans-serif!important;
+}
+
+
+
+
+}
+}
+
+/* this is where the accordian CSS will be*/
+
+
+
+.sponseraccordion body {
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    background: #f2f2f2;
+    color: rgba(0,0,0,.87);
+    font-family: 'proxima-nova', sans-serif;
+}
+.sponseraccordion .accordion {
+    margin: auto;
+    width: 100%;
+}
+.sponseraccordion .accordion input {
+    display: none;
+}
+.sponseraccordion .box {
+    position: relative;
+    background: white;
+    height: 87px;
+    transition: all .15s ease-in-out;
+}
+.sponseraccordion .box::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+}
+.sponseraccordion header.box {
+    background: #21d367;
+    z-index: 100;
+    cursor: initial;
+    box-shadow: 0 -1px 0 #e5e5e5,0 0 2px -2px rgba(0,0,0,.12),0 2px 4px -4px rgba(0,0,0,.24);
+}
+.sponseraccordion header .box-title {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16pt;
+    color: white;
+    cursor: initial;
+margin-top: 14px;
+}
+.sponseraccordion .box-title {
+    width: calc(100% - 40px);
+    height: 64px;
+    line-height: 64px;
+    padding: 0 20px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+}
+.sponseraccordion .box-content {
+    width: calc(100% - 40px);
+    padding: 30px 20px;
+    font-size: 11pt;
+
+    display: none;
+}
+.sponseraccordion .box-close {
+    position: absolute;
+    height: 64px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+.sponseraccordion input:checked + .box {
+    height: auto;
+    margin: 16px 0;
+    box-shadow: 0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32);
+}
+.sponseraccordion input:checked + .box .box-title {
+    border-bottom: 1px solid rgba(0,0,0,.18);
+}
+.sponseraccordion input:checked + .box .box-content,
+input:checked + .box .box-close {
+    display: inline-block;
+}
+.sponseraccordion .arrows section .box-title {
+    padding-left: 44px;
+    width: calc(100% - 64px);
+}
+.sponseraccordion .arrows section .box-title:before {
+    position: absolute;
+    display: block;
+    content: '\203a';
+    font-size: 18pt;
+    left: 20px;
+    top: 13px;
+    transition: transform .15s ease-in-out;
+    color: rgba(0,0,0,.54);
+}
+.sponseraccordion input:checked + section.box .box-title:before {
+    transform: rotate(90deg);
+}
+
+.sponseraccordion label, input, button, select, textarea {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-top: 9px;
+}
+
+ #pay_payment_gateway_fee_div .controls, #donation_type .controls {
+    margin-left: 180px !important;
+}
+@media only screen and (max-width: 600px) {
+.sponseraccordion label, input, button, select, textarea {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-top: 9px;
+}
+.sponseraccordion .box {
+    position: relative;
+    background: white;
+    height: 100px;
+    transition: all .15s ease-in-out;
+}
+.sponseraccordion .box-title {
+    width: calc(100% - 40px);
+    height: 85px;
+    line-height: 35px;
+    padding: 0 20px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+        margin-top: 16px;
+}
+.sponseraccordion .arrows section .box-title:before {
+    top: 14px;
+}
+ #pay_payment_gateway_fee_div .controls, #donation_type .controls {
+    margin-left: 0px !important;
+}
+}
+
+
+iframe, svg {
+    max-width: 100%;
+    border: none!important;
+}
+.itemid-753 .row-fluid .span3 {
+    width: 100%!important;
+}
+
+.sponseraccordion .arrows section .box-title {
+    padding-left: 44px;
+    width: 100%;
+}
+
+.sponseraccordion .box-title {
+    width: 100%;
+    height: 100px;
+    line-height: 35px;
+    padding: 0 20px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 16px;
+}
+
+@media (max-width: 500px){
+}
+
+
+/* this is where i fix the left margins for the forms*/
+
+.itemid-753 .row-fluid [class*="span"] {
+    margin-left: 0;
+}
+
+
+@media (max-width: 1200px){
+.jd_padding_right_20_desktop {
+    padding-right: 0px;
+}}
+
+
+@media (max-width: 1200px){
+.jd_padding_left_20_desktop {
+    padding-left: 0px;
+}}
+
+
+#amount {
+    display: inline !important;
+    margin-top: 0px;
+}
+
+.input-append .add-on, .input-prepend .add-on {
+
+    height: 34px;
+
+}
+
+
+.jd_padding_bottom_20_important_responsive {
+    padding-bottom: 20px !important;
+    /* margin-top: 23px; */
+    padding-top: 20px!important;
+    padding-left: 20px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: -4px 0 0;
+    margin-top: 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+
+/* this is for the donations page*/
+
+
+.itemid-753 .donate-details {
+
+    display: none;
+}
+
+.itemid-753 .jd-row .jd-description h3.jd_title a {
+  text-decoration: none;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  font-size: 19px;
+  color: white;
+  background: linear-gradient(180deg, rgba(45,44,43,0) 0%, rgba(45,44,43,0.2) 78%, rgba(45,44,43,0.4) 100%);
+  height: 118px;
+  padding-top: 72px;
+  padding-left: 20px;
+}
+.jd-description p{
+  display: none;
+}
+
+.itemid-753.jd-container .jd-description {
+    padding: 0px!important;
+
+}
+
+.itemid-753 .jd-container .jd-description .jd-description-details img, .jd-container .jd-description img {
+    float: left !important;
+    margin: 0px!important;
+}
+
+.jd-row .jd-description h3.jd_title {
+    margin: 0 0 20px;
+    position: relative;
+}
+.jd-container .jd-description {
+
+    margin: 0;
+    padding: 0px;
+
+}
+.jd-container .jd-description:before{
+  display: none;
+}
+
+.itemid-753 h1 {
+    margin-bottom: 40px;
+    font-size: 95px;
+    display: none;
+}
+#donation-campaigns{
+  display: flex;
+
+flex-wrap: wrap;
+}
+
+.jd-container .jd-row {
+
+  width: 46%;
+  margin: 10px;
+  min-width: 320px
+
+}
+.row-fluid [class*="span"] {
+
+    min-height: 0px;
+  }
+
+.itemid-753 .jd-description h3 {
+
+    position: absolute;
+}
+
+.itemid-753 .jd-row .jd-description h3.jd_title a:hover{
+  opacity: 1;
+  transform: scale(1.05, 1.1);
+  transition: all 0.6s ease-in-out;
+  background: rgba(33, 211, 103, 0.83);
+}
+
+.jd-container .jd-row {
+
+    border: 0px #cfd0d3 solid;
+
+    border-radius: 0px;
+}
+
+@media (max-width: 1200px){
+.jd-container .jd-row {
+    width: 100%;
+}
+
+.itemid-753 .jd-row .jd-description h3.jd_title a {
+
+    height: 195px;
+    padding-top: 148px;
+
+}}
+
+.alert.alert-message {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    display: none;
+}
+1111
