@@ -1,5 +1,15 @@
 /* NEW REDESIGN css 2020*/
 
+@media (min-width: 1200px){
+.sppb-row-container {
+    width: 1500px;
+}
+}
+
+
+
+
+
 H1{
 font-size: 71px!important;
 color: white;
@@ -23,7 +33,6 @@ h3 {
     line-height: 32px!important;
     color: #222222;
 }
-
 
 
 
@@ -304,10 +313,9 @@ padding-bottom:19px;
 
 }
 }
-
+  /* BUTTON STYLES */
 .btn.sppb-btn-primary, .btn.btn-primary, .sppb-btn.sppb-btn-primary, .sppb-btn.btn-primary {
   background: #01dbff;
-  box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.06);
   border-radius: 30px;
   border: 0;
   padding: 19px 35px;
@@ -320,6 +328,31 @@ padding-bottom:19px;
   min-width: 250px;
 }
 
+.sppb-btn-secondary {
+  border-radius: 30px;
+  border: 0;
+  padding: 19px 35px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-family: 'proxima-nova', sans-serif!important;
+  text-transform: uppercase;
+  min-width: 250px;
+  border: 2px solid #01dbff;
+  background: none;
+}
+
+.sppb-btn-secondary:hover {
+    color: #fff;
+    background-color: #01dbff;
+    border-color: #01dbff;
+}
+.show>.sppb-btn-secondary.dropdown-toggle, .sppb-btn-secondary.active, .sppb-btn-secondary:active {
+    background-color: #01dbff;
+    background-image: none;
+    border-color: #01dbff;
+}
 
 
 
