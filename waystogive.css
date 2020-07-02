@@ -241,7 +241,7 @@ body #cda-remove {
 .grid figure figcaption,
 .grid figure figcaption > a {
 	/*position: absolute; */
-	top: 100px;
+	bottom: -10px;
 left: 0;
 width: 100%;
 /* height: 100%; */
@@ -267,7 +267,7 @@ position: absolute;
 	    font-family: 'proxima-nova', sans-serif!important;
 	    /* width: 75%; */
 	    line-height: 1.1em;
-	    text-align: left;
+	    text-align: center;
 	    color: white;
 	    text-transform: uppercase;
 }
@@ -298,7 +298,8 @@ position: absolute;
 
 figure.effect-winston {
 	background: #162633;
-	text-align: left;
+	text-align: center;
+	padding-bottom: 40px;
 }
 
 figure.effect-winston img {
@@ -326,10 +327,7 @@ figure.effect-winston figcaption::before {
 }
 
 figure.effect-winston h2 {
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
-	transform: translate3d(0,140px,0);
+padding-bottom: 50px;
 
 }
 
@@ -338,25 +336,18 @@ figure.effect-winston p {
 	/*right: 0;*/
 	bottom: 0;
 	/*padding: 0 1.5em 7% 0;*/
-	text-align: left;
+	text-align: center;
 	/* position: absolute; */
 bottom: 0;
 /* text-align: center; */
 margin: auto;
 width: 100%;
-padding-bottom: 20px;
-opacity: 0;
--webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-transition: opacity 0.35s, transform 0.35s;
--webkit-transform: translate3d(0,50px,0);
-transform: translate3d(0,50px,0);
 }
 
 figure.effect-winston a {
-	margin:0;
+
 	color: white;
-	font-size: 170%;
-	margin-left: -25px;
+
 }
 
 figure.effect-winston a:hover,
@@ -373,7 +364,7 @@ figure.effect-winston p a i {
     color: white;
     padding: 10px;
     padding-right: 30px;
-    padding-left: 25px;
+    padding-left: 30px;
     /*border: 2px solid #01dbff !important;*/
     font-family: 'proxima-nova', sans-serif;
     font-size: 12px;
@@ -391,13 +382,6 @@ figure.effect-winston:hover img {
 figure.effect-winston:hover h2 {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-}
-
-
-figure.effect-winston:hover p {
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-	opacity: 1;
 }
 
 figure.effect-winston:hover figcaption::before {
@@ -438,7 +422,6 @@ figure.effect-winston:hover p a:first-child i {
 	border-radius: 5px;
 	min-height: 372px;
 	background-color: #222222;
-  max-width:460px;
 }
 
 .grid{
@@ -456,15 +439,32 @@ i.fa::after {
 
 }
 
-.wsdate{
-	height: 154px;
-	width: 154px;
-	color: white;
-	border-radius:50px;
-	background-color: #df00ca;
-	position: absolute;
-	bottom: -75px;
-	right: -75px;
+.btn.sppb-btn-primary, .btn.btn-primary, .sppb-btn.sppb-btn-primary, .sppb-btn.btn-primary {
+    background: #01dbff;
+    border-radius: 30px;
+    border: 0;
+    padding: 19px 35px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'proxima-nova', sans-serif!important;
+    text-transform: uppercase;
+    min-width: 250px;
+    margin-bottom: 40px!important;
+}
 
-
+.btn.sppb-btn-primary, .btn.btn-primary, .sppb-btn.sppb-btn-primary, .sppb-btn.btn-primary {
+    background: #01dbff;
+    border-radius: 30px;
+    border: 0;
+    padding: 19px 35px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'proxima-nova', sans-serif!important;
+    text-transform: uppercase;
+    min-width: 250px;
+    margin-bottom: 40px!important;
 }
