@@ -789,3 +789,31 @@ flex-wrap: wrap;
     color: #af3bd8!important;
 
 }
+
+
+
+.menu-slide-down .sp-has-child >.sp-dropdown {
+    top: inherit;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    transition: all 500ms ease;
+    width: inherit;
+}
+
+
+.sp-megamenu-parent .sp-dropdown.sp-dropdown-main.sp-menu-right {
+    left: -57px;
+}
+
+div .sp-dropdown .sp-dropdown-main .sp-menu-right{
+    width: inherit;
+}
+
+
+.sp-megamenu-parent .sp-dropdown .sp-dropdown-inner {
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+    padding: 0;
+    border-radius: 0px;
+    position: relative;
+}
