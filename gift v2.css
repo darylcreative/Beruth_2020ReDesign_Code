@@ -241,7 +241,7 @@ body #cda-remove {
 .grid figure figcaption,
 .grid figure figcaption > a {
 	/*position: absolute; */
-	top: 25px;
+	top: 30px;
 left: 0;
 width: 100%;
 /* height: 100%; */
@@ -262,7 +262,7 @@ position: absolute;
 .grid figure h2 {
 
 	font-weight: 600!important;
-	    font-size: 23px!important;
+	    font-size: 28px!important;
 	    text-transform: initial;
 	    font-family: 'proxima-nova', sans-serif!important;
 	    /* width: 75%; */
@@ -298,7 +298,8 @@ position: absolute;
 
 figure.effect-winston {
 	background: #162633;
-	text-align: left;
+	text-align: center;
+	padding-bottom: 40px;
 }
 
 figure.effect-winston img {
@@ -326,20 +327,26 @@ figure.effect-winston figcaption::before {
 }
 
 figure.effect-winston h2 {
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
-	transform: translate3d(0,200px,0);
+-webkit-transition: -webkit-transform 0.35s;
+opacity: 0;
+-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+transition: opacity 0.35s, transform 0.35s;
+-webkit-transform: translate3d(0,20px,0);
+transform: translate3d(0,20px,0);
 
 }
-
+figure.effect-winston:hover h2 {
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+opacity: 1;
+}
 figure.effect-winston p {
-	/*position: absolute;*/
-	/*right: 0;*/
-	bottom: 0;
-	/*padding: 0 1.5em 7% 0;*/
-	text-align: center;
-	/* position: absolute; */
+/*position: absolute;*/
+/*right: 0;*/
+bottom: 0;
+/*padding: 0 1.5em 7% 0;*/
+text-align: center;
+/* position: absolute; */
 bottom: 0;
 /* text-align: center; */
 margin: auto;
@@ -352,16 +359,16 @@ transition: opacity 0.35s, transform 0.35s;
 transform: translate3d(0,50px,0);
 }
 figure.effect-winston:hover p {
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-	opacity: 1;
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+opacity: 1;
 }
+
+
 figure.effect-winston a {
 	margin:0;
 	color: white;
-	font-size: 170%;
-	margin-left: -25px;
-	display: none;
+	    margin-top: -35px;
 }
 
 figure.effect-winston a:hover,
@@ -429,18 +436,18 @@ figure.effect-winston:hover p a:first-child i {
 	display: flex;
     margin: 0 auto;
     justify-content: center;
-		flex-wrap: wrap;
+  		flex-wrap: wrap;
 }
 .program {
   margin:15px; /* or inline-flex */
 	border-radius: 5px;
-	/*min-height: 372px;*/
+/*	min-height: 372px;*/
 	background-color: #222222;
-  max-width:264px;
+   max-width: 460px;
 }
 
 .grid{
-	min-width: 260px;
+	min-width: 453px;
 	    box-shadow: 2px 10px 14px 0 rgba(0,0,0,.13), 2px 27px 75px 0 rgba(0,0,0,.07);
 }
 
@@ -452,4 +459,82 @@ i.fa::after {
     right: 0px;
 }
 
+}
+
+.btn.sppb-btn-primary, .btn.btn-primary, .sppb-btn.sppb-btn-primary, .sppb-btn.btn-primary {
+    background: #01dbff;
+    border-radius: 30px;
+    border: 0;
+    padding: 19px 35px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'proxima-nova', sans-serif!important;
+    text-transform: uppercase;
+    min-width: 250px;
+    margin-bottom: 40px!important;
+}
+
+.btn.sppb-btn-primary, .btn.btn-primary, .sppb-btn.sppb-btn-primary, .sppb-btn.btn-primary {
+    background: #01dbff;
+    border-radius: 30px;
+    border: 0;
+    padding: 19px 35px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'proxima-nova', sans-serif!important;
+    text-transform: uppercase;
+    min-width: 250px;
+    margin-bottom: 40px!important;
+}
+.contentgroup{
+
+    /* text-align: center; */
+    /* margin: auto; */
+    top: 110px;
+    /* left: 0; */
+    width: 100%;
+    position: absolute;
+    padding-bottom: 28px;
+}
+
+
+
+figure.effect-winston:hover img {
+	opacity: 0.2;
+}
+
+figure.effect-winston:hover h2 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-winston:hover figcaption::before {
+	opacity: 0.7;
+	-webkit-transform: rotate3d(0,0,1,20deg);
+	transform: rotate3d(0,0,1,20deg);
+}
+
+figure.effect-winston:hover p i {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-winston:hover p a:nth-child(3) i {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-winston:hover p a:nth-child(2) i {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-winston:hover p a:first-child i {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
 }

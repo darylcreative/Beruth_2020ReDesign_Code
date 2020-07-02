@@ -785,3 +785,7 @@ flex-wrap: wrap;
     color: #468847;
     display: none;
 }
+#offcanvas-toggler >i {
+    color: #af3bd8!important;
+
+}
