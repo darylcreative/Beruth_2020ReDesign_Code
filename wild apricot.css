@@ -128,7 +128,7 @@ display: grid!important;
 
 #FunctionalBlock1_ctl00_donation_ctl00_stepTemplate_donationForm_donationFormRepeater_ctl05_donationAmountTextBox11720328{
   /* margin-top: 5px; */
-width: 37%!important;
+width: 20%!important;
 margin-left: 10px;
 
 }
@@ -426,3 +426,30 @@ display:none;
 #PAGEID_1075183 .zoneContentInner .s1_grid_12 .s2_grid_12 s3_grid_12 .zoneInner .zoneRoundedCorners{
   background-color:  #01dbff;
 }
+.fieldContainer.donationAmountContainer .fieldSubContainer .fieldBody input.typeText {
+    border: 1px solid #cacaca;
+    background: transparent;
+    color: #373737;
+    width: 20%!IMPORTANT;
+  }
+
+/*_________________________ sponsor form_________________________*/
+
+
+
+  #PAGEID_1075354 #FunctionalBlock1_ctl00_donation_ctl00_stepTemplate_donationForm_donationFormRepeater_ctl04_donationAmountGroupBody11720328  .fieldItem:nth-child(2){
+    display:none;
+  }
+
+  #PAGEID_1075354 #FunctionalBlock1_ctl00_donation_ctl00_stepTemplate_donationForm_donationFormRepeater_ctl04_donationAmountGroupBody11720328  .fieldItem:nth-child(3){
+    display:none;
+  }
+
+  #PAGEID_1075354 #FunctionalBlock1_ctl00_donation_ctl00_stepTemplate_donationForm_donationFormRepeater_ctl04_donationAmountGroupBody11720328  .fieldItem:nth-child(4){
+    display:none;
+  }
+
+
+  #PAGEID_1075354 #FunctionalBlock1_ctl00_donation_ctl00_stepTemplate_donationForm_donationFormRepeater_ctl04_donationAmountGroupBody11720328  .fieldItem:nth-child(5){
+    display:none;
+  }
