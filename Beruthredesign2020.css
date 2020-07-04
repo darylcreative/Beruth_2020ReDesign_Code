@@ -817,3 +817,20 @@ div .sp-dropdown .sp-dropdown-main .sp-menu-right{
     border-radius: 0px;
     position: relative;
 }
+
+
+.sp-retina-logo{
+  display: block;
+max-width: 197px;
+min-width: 197px;
+height: auto;
+padding-top: -4px;
+}
+
+.sp-default-logo{
+  display: block;
+max-width: 197px;
+min-width: 197px;
+height: auto;
+padding-top: -4px;
+}
