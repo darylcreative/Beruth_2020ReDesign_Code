@@ -346,19 +346,19 @@ margin: auto;
 width: 100%;
 }
 
-figure.effect-winston a {
+figure.effect-winston .aa {
 	margin:0;
 	color: white;
 	font-size: 170%;
 	margin-left: -25px;
 }
 
-figure.effect-winston a:hover,
-figure.effect-winston a:focus {
+figure.effect-winston .aa:hover,
+figure.effect-winston .aa:focus {
 	color: #cc6055;
 }
 
-figure.effect-winston p a i {
+figure.effect-winston p .aa i {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -399,17 +399,17 @@ figure.effect-winston:hover p i {
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-winston:hover p a:nth-child(3) i {
+figure.effect-winston:hover p .aa:nth-child(3) i {
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
 
-figure.effect-winston:hover p a:nth-child(2) i {
+figure.effect-winston:hover p .aa:nth-child(2) i {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
-figure.effect-winston:hover p a:first-child i {
+figure.effect-winston:hover p .aa:first-child i {
 	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
